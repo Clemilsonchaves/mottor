@@ -10,13 +10,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Category {
-  id String @id @default(uuid())
-  name String
-  slug String
-  imageUrl String
-}
-
 model Account {
   id                 String  @id @default(cuid())
   userId             String

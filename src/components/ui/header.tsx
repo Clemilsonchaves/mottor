@@ -56,7 +56,7 @@ const Header = () => {
               
                     )}
 
-                   <div className="mt-4 flex-col gap-3 ">
+                   <div className="flex mt-4 flex-col gap-3 ">
                     {status === "unauthenticated" && (
                      <Button onClick={handleLoginClick} variant="outline" className="w-full justify-start gap-2"> 
                       <LogInIcon size={16} />
