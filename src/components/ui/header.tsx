@@ -91,7 +91,7 @@ const Header = () => {
           <SheetContent side="right">
           <SheetHeader className="text-left text-lg font-semibold">
             Buscas
-          </SheetHeader>
+          </SheetHeader >
 
           <SearchBar />
          

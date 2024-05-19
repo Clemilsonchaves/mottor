@@ -5,7 +5,7 @@ import { BsFacebook, BsInstagram, BsYoutube } from "react-icons/bs";
 const Footer = () => { 
   return ( 
   
-      <div className="flex flex-col justify-center items-center  bg-gray-700">
+      <div className="flex flex-col justify-center items-center  -bottom-36  w-full  bg-gray-700">
         <Link href={"./quemsomo"} className="my-4"> Quem Somos</Link>
       
          <div className="flex gap-3 mb-3">
