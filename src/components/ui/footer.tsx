@@ -10,15 +10,15 @@ const Footer = () => {
       
          <div className="flex gap-3 mb-3">
             <a href="#">
-              <BsInstagram size={16} className="text-white"/>
+              <BsInstagram size={16} className="text-orange-700"/>
             </a>
 
             <a href="#">
-              <BsFacebook size={16} className="text-white"/>
+              <BsFacebook size={16} className="text-orange-700"/>
             </a>
 
             <a href="#">
-              <BsYoutube size={16} className="text-white"/>
+              <BsYoutube size={16} className="text-orange-700"/>
             </a>
          </div>
         

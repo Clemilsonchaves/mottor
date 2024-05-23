@@ -1,5 +1,5 @@
+import React from "react";
 import Cars from "@/components/ui/cars";
-import Footer from "@/components/ui/footer";
 import Motos from "@/components/ui/motos";
 import Trucks from "@/components/ui/trucks";
 import { Metadata } from "next";

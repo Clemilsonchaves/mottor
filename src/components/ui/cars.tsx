@@ -2,6 +2,8 @@ import { Button } from "./button";
 import { Card } from "./card";
 import Image from "next/image";
 
+import Link from "next/link";
+
 const Cars = () => {
   
   return ( 
@@ -15,7 +17,11 @@ const Cars = () => {
           height={400}
           className="rounded-lg mt-6 "
         />
-        <Button className="bg-slate-900 hover:bg-slate-700 mb-8 mt-6 w-48 ">Carros</Button>
+
+        <Link href={"./news01cars"}>
+            <Button className="bg-slate-900 hover:bg-slate-700 mb-8 mt-6 w-48 ">Carros</Button>
+        </Link>
+       
       </Card>
 
     </div>
