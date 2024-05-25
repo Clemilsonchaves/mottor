@@ -20,9 +20,9 @@ const News01cars = () => {
           height={42}
           className="rounded-full  overflow-hidden"
         />
-        <h1 className="font-bold text-orange-600">Clemilson Chaves</h1>
+        <h1 className="font-bold text-orange-700">Clemilson Chaves</h1>
         <p>22/05/2024</p>
-        <p>05:13</p>
+        <p>05:13 AM</p>
       </div>
 
       <Card className=" flex flex-col text-start items-center bg-gray-800 justify-center p-6  mt-20 mb-9 gap-8 mx-auto w-[500px] sm:w-2/4 h-2/4 ">

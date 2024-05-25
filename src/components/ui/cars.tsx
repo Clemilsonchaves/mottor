@@ -16,9 +16,9 @@ const Cars = () => {
           width={384}
           height={400}
           className="rounded-lg mt-6 "
-        />
+        /> 
 
-        <Link href={"./news01cars"}>
+        <Link href={"./carscategory"}>
             <Button className="bg-slate-900 hover:bg-slate-700 mb-8 mt-6 w-48 ">Carros</Button>
         </Link>
        
